@@ -133,16 +133,18 @@ a:hover {
   color: var(--color-desaturated-blue);
   display: inline-block;
   margin-top: 2.5rem;
+  margin-bottom: 10px;
 }
 .btn__cancel:hover {
-  cursor: pointer;
   color: var(--color-dark-blue);
 }
 .btn__payment:hover {
   background-color: hsl(245, 83%, 68%);
-  cursor: pointer;
 }
-
+.btn a {
+  text-decoration: none;
+  color: inherit;
+}
 @media screen and (min-width: 375px) {
   body {
     background-image: url(../images/pattern-background-desktop.svg);
